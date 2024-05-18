@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 700px;
+}
+
+section header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.logo{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.logo span{
+    color:#6b0596;
+}
+
+section header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 170px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding: 10px 25px;
+    border: 1px solid #6b0596;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+section header ul:hover{
+    text-decoration: none;
+    background: #ffffff;
+}
+
+ .coder{
+    display: flex;
+ }
+
+ .coder li{
+    list-style: none;
+    position: relative;
+}
+
+.coder a{
+    color: #6b0596;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+}
+.coder p{
+    color: #6b0596;
+}
+
+.coder a:hover{
+    border: 1px solid #6b0596;
+    border-radius: 30px;
+    color: #2c043d;
+}
+
+.coder ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding:0 ;
+}
+
+.coder li:hover > ul{
+    display: block;
+}
+
+.coder ul ul{
+    display: none;
+    top: 100%;
+    left: 100%
+}
+
+.container{
+    position: absolute;
+    transform: translate(20%, -50%);
+    top: 60%;
+    width: 500px;
+    height: 500px;
+}
+.mainy{
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left:70%;
+    width: 500px;
+    height: 500px;
+}
+.slider{
+    display: flex;
+    position: relative;
+}
+.btnBack, .btnStraight{
+    font-size: 30px;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #6b0596;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.btnBack{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+.btnStraight{
+    position: absolute;
+    top: 45%;
+    left: 110%;
+}
+.btnBack:active, .btnStraight:active{
+    background-color: #9421c6;
+    transform: scale(0.9);
+}
+p{
+    color:beige;
+}
+
+.texts h1{
+    width: 500px;
+    margin-left: 750px;
+    position: absolute;
+    top: 25%;
+    font-size: 60px;
+    color: #333333;
+}
+
+.texts h1 span{
+    color: #6b0596;
+}
+.texts h2{
+    width: 500px;
+    margin-left: 750px;
+    position: absolute;
+    top: 45%;
+    font-size: 30px;
+    color: #333333;
+}
+.texts h3{
+    width: 500px;
+    margin-left: 750px;
+    position: absolute;
+    top: 60%;
+    font-size: 30px;
+    color: #333333;
+}
+
+
+.card{
+    list-style: none;
+    position: absolute;
+    top: 60%;
+    width: 170px;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 900px;
+    background: #6b0596;
+    cursor: pointer;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.card li a{
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover{
+    box-shadow: 3px 5px 20px rgba(0,0,0,0.3);
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.footer{
+    margin-top: 100px;
+    background: #6b0596;
+    padding: 50px;
+}
+
+.footer .main{
+    width: 1170px;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.main ul li{
+    margin-bottom: 20px;
+}
+
+.main ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
