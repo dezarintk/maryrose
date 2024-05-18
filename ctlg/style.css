@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 700px;
+}
+
+section header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.logo{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.logo span{
+    color:#6b0596;
+}
+
+section header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 170px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding: 10px 25px;
+    border: 1px solid #6b0596;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+section header ul:hover{
+    text-decoration: none;
+    background: #ffffff;
+}
+
+ .coder{
+    display: flex;
+ }
+
+ .coder li{
+    list-style: none;
+    position: relative;
+}
+
+.coder a{
+    color: #6b0596;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+}
+.coder p{
+    color: #6b0596;
+}
+
+.coder a:hover{
+    border: 1px solid #6b0596;
+    border-radius: 30px;
+    color: #2c043d;
+}
+
+.coder ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding:0 ;
+}
+
+.coder li:hover > ul{
+    display: block;
+}
+
+.coder ul ul{
+    display: none;
+    top: 100%;
+    left: 100%
+}
+
+
+section .texts h1{
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    font-size: 100px;
+    color: #333333;
+}
+
+section .texts h1 span{
+    color: #6b0596;
+}
+
+.about{
+    width: 100%;
+    height: 1500px;
+    padding: 50px;
+}
+
+.about .ctl r{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #333333;
+}
+
+.about .box{
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .box .card{
+    width: 170px;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 15px;
+    background: #6b0596;
+    cursor: pointer;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.about .box .card  p{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .box .card:hover{
+    box-shadow: 3px 5px 20px rgba(0,0,0,0.3);
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.about hr{
+    margin: 50px;
+}
+
+.about .clothes_box ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+.about .clothes_box .clothes_card{
+    background: #ffffff;
+    width: 350px;
+    padding: 1px 1px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.about .elements .clothes_box img{
+    border-radius: 10px;
+    width: 350px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.about .elements .clothes_box img:hover{
+    transform: scale(1.1);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+}
+
+.about .elements ul li h1{
+    text-decoration: none;
+    font-size: 35px;
+    color: #6b0596;
+    margin: 15px 0;
+}
+
+.footer{
+    background: #6b0596;
+    padding: 50px;
+}
+
+.footer .main{
+    width: 1170px;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+.main ul li{
+    margin-bottom: 20px;
+}
+
+.main ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
