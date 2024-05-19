@@ -71,10 +71,9 @@ section header ul:hover{
 }
 
 .coder a:hover{
-    background-color: #6b0596;
     border: 1px solid #6b0596;
     border-radius: 30px;
-    color: #ffffff;
+    color: #2c043d;
 }
 
 .coder ul{
@@ -149,6 +148,7 @@ section .texts h1 span{
 }
 
 .about .clothes_box{
+    list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,6 +158,13 @@ section .texts h1 span{
 
 .about .elements .clothes_box img{
     border-radius: 80px;
+    width: 200px;
+    transition: 0.3s;
+}
+.about .elements .clothes_box img:hover{
+    transform: scale(1.1);
+    border-radius: 200px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
     width: 200px;
     transition: 0.3s;
 }
