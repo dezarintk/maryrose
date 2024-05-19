@@ -108,6 +108,7 @@ section .texts h1 span{
 }
 
 .about{
+    margin-top: 50px;
     width: 100%;
     padding: 50px;
 }
