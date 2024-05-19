@@ -212,7 +212,8 @@ section .texts h1 span{
 
 }
 
-.about .links_box .links_card1 h1{
+.about .links_box .links_card1 a{
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
