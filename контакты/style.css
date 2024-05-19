@@ -71,6 +71,7 @@ section header ul:hover{
 }
 
 .coder a:hover{
+    background-color: #6b0596;
     border: 1px solid #6b0596;
     border-radius: 30px;
     color: #2c043d;
